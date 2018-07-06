@@ -10,7 +10,7 @@ slides: slides.html
 	       --mathjax -i -t revealjs $^ -o $@
 
 .PHONY: ghpages
-ghpages:
+ghpages: slides
 	rm -rf docs
 	mkdir -p docs
 	rsync -rhvW --no-compress --progress --prune-empty-dirs \
