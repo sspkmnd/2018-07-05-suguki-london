@@ -59,7 +59,7 @@
 
 ## Better IDE
 
-Having a good visual response is important. Even Tonny Barr spoke about this -- [SAS BEGINNINGS](https://youtu.be/5SV-H8qEeAc?t=51m59s) 
+Having a good visual response is important. Even Tony Barr spoke about this -- [SAS BEGINNINGS](https://youtu.be/5SV-H8qEeAc?t=51m59s) 
 
 # Parsing SAS
 
