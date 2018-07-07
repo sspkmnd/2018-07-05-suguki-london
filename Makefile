@@ -6,7 +6,8 @@ watch:
 slides: slides.html
 
 %.html: %.md
-	pandoc --standalone -V transition=slide -V theme=white -V rollingLinks=true \
+	pandoc --standalone --template=./template.revealjs \
+	       -V transition=slide -V theme=white -V rollingLinks=true \
 	       --mathjax -i -t revealjs $^ -o $@
 
 .PHONY: ghpages

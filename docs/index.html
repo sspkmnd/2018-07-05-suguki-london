@@ -4,11 +4,15 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="author" content="Igor Khorlo">
+  <meta name="keywords" content="sas, saslint, antlr, parser, parse, ast, parse tree, static code analysis, lint, linter">
   <title>Parsing SAS using ANTLR and several use cases for the outcome</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+      <meta property="og:title" content="Parsing SAS using ANTLR and several use cases for the outcome"/>
+        <meta property="og:description" content="This presentation considers the approach of parsing SAS language using the ANTLR parser generator. Several pitfalls are covered during building a parser. Additionally, few use cases outlined how generated AST can be used."/>
+    <meta name="description" content="This presentation considers the approach of parsing SAS language using the ANTLR parser generator. Several pitfalls are covered during building a parser. Additionally, few use cases outlined how generated AST can be used."/>
+    <link rel="stylesheet" href="reveal.js/css/reveal.css">
   <style type="text/css">
       code{white-space: pre-wrap;}
       span.smallcaps{font-variant: small-caps;}
@@ -27,6 +31,7 @@
   <!--[if lt IE 9]>
   <script src="reveal.js/lib/js/html5shiv.js"></script>
   <![endif]-->
+  <meta property="og:image" content="assets/sugg.png"/>
 </head>
 <body>
   <div class="reveal">

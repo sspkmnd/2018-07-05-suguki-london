@@ -1,6 +1,15 @@
-% Parsing SAS using ANTLR and several use cases for the outcome 
-% Igor Khorlo
-% 2018-07-05 SUGUKI 📍 London
+---
+title: Parsing SAS using ANTLR and several use cases for the outcome 
+author: Igor Khorlo
+date: 2018-07-05 SUGUKI 📍 London
+keywords: [sas, saslint, antlr, parser, parse, ast, parse tree, static code analysis, lint, linter]
+abstract: |
+  This presentation considers the approach of parsing SAS language using the ANTLR parser generator.
+  Several pitfalls are covered during building a parser.
+  Additionally, few use cases outlined how generated AST can be used.
+header-includes: |
+  <meta property="og:image" content="assets/sugg.png"/>
+---
 
 # Announcement
 
