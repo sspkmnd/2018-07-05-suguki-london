@@ -5,10 +5,10 @@ watch:
 .PHONY: slides
 slides: slides.html
 
-%.html: %.md
-	pandoc --standalone --template=./template.revealjs \
+%.html: %.md template.revealjs
+	pandoc --standalone --template=template.revealjs \
 	       -V transition=slide -V theme=white -V rollingLinks=true \
-	       --mathjax -i -t revealjs $^ -o $@
+	       -i -t revealjs $< -o $@
 
 .PHONY: ghpages
 ghpages: slides
